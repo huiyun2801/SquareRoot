@@ -1,14 +1,14 @@
 d = x = 1.000
 t = 0
 
-y = float(input("Enter a number:"))
+y = float(input("Enter a number >> "))
 
 while (d>0.01 or d<-0.01) and t<51 :
     t+=1
     d = y/x-x
 
     if d>=-0.01 and d<=0.01 :
-        print("Square root: ", x)
+        print("Square Root = ", x)
 
     
     elif d>1: x+=1
@@ -18,5 +18,6 @@ while (d>0.01 or d<-0.01) and t<51 :
     elif d<-0.1: x-=0.09
     else: x-=0.009
 
-print("Total tries: ",t)
+print("Check x^2 = ")
+print("# Tries = ",t)
         
