@@ -18,6 +18,6 @@ while (d>0.01 or d<-0.01) and t<51 :
     elif d<-0.1: x-=0.09
     else: x-=0.009
 
-print("Check x^2 = ")
+print("Check x^2 = ",x*x)
 print("# Tries = ",t)
         
